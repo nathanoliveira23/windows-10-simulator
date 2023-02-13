@@ -9,6 +9,8 @@ export const GloblaStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+
+    background-color: #242423;
   }
 
   a {
