@@ -10,7 +10,10 @@ export const GloblaStyle = createGlobalStyle`
   body {
     -webkit-font-smoothing: antialiased;
 
-    background-color: #242423;
+    background-image: url("../../../assets/w10-wallpaper.jpg");
+    background-size: cover;
+
+    overflow-y: hidden;
   }
 
   a {
