@@ -6,7 +6,9 @@ import { ImVolumeHigh } from "react-icons/im";
 import { IoIosArrowUp } from "react-icons/io";
 
 import { BsWindows } from "react-icons/bs";
+
 import edge from "../../../assets/edge.svg";
+import explorer from "../../../assets/explorer.png";
 
 export function TaskBar() {
   return (
@@ -15,8 +17,9 @@ export function TaskBar() {
         <div>
           <TaskBarItens item={<BsWindows size={26} color="white" />} />
           <TaskBarItens item={<img src={edge} />} />
+          <TaskBarItens item={<img src={explorer} />} />
         </div>
-        <div>
+        <div className="controls">
           <TaskBarItens item={<IoIosArrowUp size={20} color="white" />} />
           <TaskBarItens item={<ImVolumeHigh size={16} color="white" />} />
           <TaskBarItens item={<AiOutlineWifi size={18} color="white" />} />

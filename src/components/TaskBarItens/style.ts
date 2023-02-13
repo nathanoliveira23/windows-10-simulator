@@ -13,6 +13,10 @@ export const Itens = styled.button `
 
   height: 100%;
 
+  &:hover {
+      background-color: #566B72;
+  }
+
   img {
     height: 90%;
     width: 100%;

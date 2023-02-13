@@ -24,4 +24,10 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
   }
+
+  .controls {
+    button {
+      padding: 4px;
+    }
+  }
 `
