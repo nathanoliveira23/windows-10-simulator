@@ -13,6 +13,13 @@ export const Container = styled.button`
   border: none;
   background-color: transparent;
 
+  margin-top: 10px;
+
+  div {
+    background-color: #03A9F4;
+    padding: 5px;
+  }
+
   &:hover {
     background-color: #222;
   }

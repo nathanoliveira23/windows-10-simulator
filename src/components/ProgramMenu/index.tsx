@@ -9,7 +9,9 @@ interface ProgramMenuProps {
 export function ProgramMenu({ icon, title } : ProgramMenuProps) {
   return (
     <Container>
-      {icon}
+      <div>
+        {icon}
+      </div>
       {title}
     </Container>
   );
